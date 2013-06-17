@@ -1,0 +1,96 @@
+@import "bootstrap";
+
+#bg {
+  position: fixed; 
+  z-index: 1;
+  top: -10%; 
+  margin-left: -25%; 
+  width: 180%; 
+  height: 180%;
+}
+#bg img {
+  position: relative; 
+  top: 30px; 
+  left: auto; 
+  right: auto; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#back-image {
+  position: fixed; 
+  z-index: 1;
+  top: -10%; 
+  margin-left: -25%; 
+  width: 180%; 
+  height: 180%;
+  background-image: url(street.jpeg);
+  background-size: 50px 50px;
+  background-position: relative;
+
+}
+
+#front-unit {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px
+}
+
+.image-box {
+  background: rgba(22,22,22,.75);
+  background-image: url(base_home_logo_white.gif);
+  background-position: 20px 50%;
+  background-repeat:no-repeat;
+  position: relative;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.image img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box-text {
+  padding-left: 175px;
+  padding-top: 165px;
+  color: white;
+  font-size: 2em;
+}
+
+#sign_in_button {
+  padding-top: 50px;
+  padding-left: auto;
+  padding-right: auto;
+  position: relative;
+  z-index: 3;
+}
+
+#sign_up_link {
+  position: relative;
+  padding-left: auto;
+  padding-right: auto;
+  z-index: 3;
+  a:link {
+  COLOR: #EEEEEE;
+  }
+  a:visited {
+  COLOR: #EEEEEE;
+  }
+  a:hover {
+  COLOR: #1e90ff;
+  }
+  a:active {
+  COLOR: #00FF00;
+  }
+}
