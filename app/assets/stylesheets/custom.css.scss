@@ -19,25 +19,12 @@
   min-height: 50%;
 }
 
-#back-image {
-  position: fixed; 
-  z-index: 1;
-  top: -10%; 
-  margin-left: -25%; 
-  width: 180%; 
-  height: 180%;
-  background-image: url(street.jpeg);
-  background-size: 50px 50px;
-  background-position: relative;
-
-}
-
 #front-unit {
   position: relative;
   z-index: 1;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 40px
+  padding-top: 80px
 }
 
 .image-box {
@@ -65,7 +52,7 @@
   padding-left: 175px;
   padding-top: 165px;
   color: white;
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 #sign_in_button {
@@ -81,16 +68,78 @@
   padding-left: auto;
   padding-right: auto;
   z-index: 3;
+  color: #EEEEEE;
+  font-style: italic;
+  font-weight: 200;
   a:link {
-  COLOR: #EEEEEE;
+    COLOR: #EEEEEE;
+    font-style: normal;
+    font-weight: bold;
   }
   a:visited {
-  COLOR: #EEEEEE;
+    COLOR: #EEEEEE;
+    font-style: normal;
+    font-weight: bold;
   }
   a:hover {
-  COLOR: #1e90ff;
+    COLOR: #1e90ff;
+    font-style: normal;
+    font-weight: bold;
   }
   a:active {
-  COLOR: #00FF00;
+    COLOR: #00FF00;
+    font-style: normal;
+    font-weight: bold;
+  }
+}
+
+/* universal */
+
+body {
+  padding-top: 40px;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spaceing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-weght: 1;
+  &:hover {
+    color: #888;
+    text-decoration: none;
+  }
+}
+
+
+/* footer*/
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #99;
+  a {
+    color: #f00;
+    &:hover {
+      color: #00f;
+    }
+  } 
+  small {
+  float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
   }
 }
