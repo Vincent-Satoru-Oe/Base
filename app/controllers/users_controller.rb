@@ -1,5 +1,9 @@
 class UsersController < ApplicationController
   
+  def index
+    @users = User.all
+  end
+
   def show
     @user = User.find(params[:id])
   end
@@ -21,7 +25,8 @@ class UsersController < ApplicationController
     else
       render 'new'
     end 
-   end
+  end
+
 
 end
 
