@@ -6,10 +6,10 @@
 		  		<%= image_tag("street.jpg", alt: "rss feed") %>
 			</div>
 			<%= render 'general_landing_page' %>
+
 		<% else %>
+		<% provide(:top_label, 'Home') %>
 			<%= render 'user_home_page' %>
 		<% end %>
+		
 	</body>
-
-
-	
